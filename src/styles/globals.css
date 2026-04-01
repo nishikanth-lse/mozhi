@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 220 113 42;
+    --color-primary-light: 236 177 117;
+    --color-primary-dark: 171 67 27;
+    --color-ink: 67 57 49;
+    --color-paper: 253 246 239;
+    --color-accent: 245 158 11;
+  }
+
+  * {
+    border-color: rgb(229 231 235);;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-feature-settings: 'liga' 1, 'kern' 1;
+  }
+
+  /* Tamil text rendering */
+  [lang="ta"],
+  .tamil {
+    font-family: 'Noto Sans Tamil', 'Latha', serif;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+  }
+
+  h1, h2, h3 {
+    @apply font-semibold;
+  }
+
+  ::selection {
+    @apply bg-gray-200 text-gray-900;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 rounded-full;
+  }
+}
+
+@layer components {
+  /* Cards */
+  .card {
+    @apply bg-white rounded-2xl border shadow-sm transition-shadow duration-200;
+  }
+
+  .card:hover {
+    @apply shadow-md;
+  }
+
+  .card-elevated {
+    @apply bg-white rounded-2xl border shadow-md;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-gray-900 text-white hover:bg-black;
+  }
+
+  .btn-secondary {
+    @apply btn bg-gray-100 text-gray-800 hover:bg-gray-200;
+  }
+
+  .btn-ghost {
+    @apply btn bg-transparent text-gray-700 hover:bg-gray-100;
+  }
+
+  .btn-danger {
+    @apply btn bg-red-600 text-white hover:bg-red-700;
+  }
+
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+
+  .btn-lg {
+    @apply px-6 py-3 text-base;
+  }
+
+  /* Inputs */
+  .input {
+    @apply w-full px-3 py-2 rounded-lg border bg-white text-gray-900 text-sm
+           focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-400
+           placeholder:text-gray-400 transition-colors;
+  }
+
+  .input-tamil {
+    @apply input text-base;
+    font-family: 'Noto Sans Tamil', 'Latha', serif;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-gray {
+    @apply badge bg-gray-100 text-gray-700;
+  }
+
+  .badge-green {
+    @apply badge bg-green-100 text-green-700;
+  }
+
+  .badge-amber {
+    @apply badge bg-amber-100 text-amber-700;
+  }
+
+  /* Layout */
+  .page-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-12 sm:py-16;
+  }
+
+  /* Word card */
+  .word-card {
+    @apply card p-5 cursor-pointer;
+  }
+
+  .word-card:hover {
+    @apply border-gray-300;
+  }
+
+  /* Skeleton */
+  .skeleton {
+    @apply animate-pulse bg-gray-200 rounded-lg;
+  }
+
+  /* Status */
+  .status-published {
+    @apply badge bg-green-100 text-green-700;
+  }
+
+  .status-draft {
+    @apply badge bg-gray-100 text-gray-600;
+  }
+
+  .status-pending_review {
+    @apply badge bg-amber-100 text-amber-700;
+  }
+
+  .status-archived {
+    @apply badge bg-red-100 text-red-700;
+  }
+
+  /* Table */
+  .admin-table {
+    @apply w-full text-sm;
+  }
+
+  .admin-table th {
+    @apply px-4 py-3 text-left font-medium text-gray-600 bg-gray-50 border-b;
+  }
+
+  .admin-table td {
+    @apply px-4 py-3 border-b;
+  }
+
+  .admin-table tr:hover td {
+    @apply bg-gray-50;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+  .animate-delay-500 { animation-delay: 500ms; }
+
+  .opacity-0-init {
+    opacity: 0;
+  }
+}
