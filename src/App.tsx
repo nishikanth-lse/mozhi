@@ -38,7 +38,7 @@ const queryClient = new QueryClient({
   },
 })
 
-console.log("ENV URL:", import.meta.env.VITE_SUPABASE_URL)
+// console.log("ENV URL:", import.meta.env.VITE_SUPABASE_URL)
 
 function PageLoader() {
   return (
