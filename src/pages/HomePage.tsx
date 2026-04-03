@@ -86,7 +86,7 @@ export function HomePage() {
             </h1>
 
             <p className="font-tamil text-2xl sm:text-3xl text-clay-400 mb-4 animate-fade-up animate-delay-100">
-              தமிழின் குரலை பாதுகாப்போம்
+              தமிழின் குரலைப்பாதுகாப்போம்
             </p>
 
             <p className="text-lg text-ink-300 max-w-2xl mb-8 leading-relaxed animate-fade-up animate-delay-200">
