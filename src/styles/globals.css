@@ -31,8 +31,8 @@
   [lang="ta"],
   .tamil {
     font-family: 'Noto Sans Tamil', 'Latha', serif;
-    line-height: 1.8;
-    letter-spacing: 0.01em;
+    line-height: 1.6;
+    letter-spacing: 0;
   }
 
   h1, h2, h3 {
