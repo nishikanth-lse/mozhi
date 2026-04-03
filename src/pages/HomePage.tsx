@@ -85,7 +85,7 @@ export function HomePage() {
               {t('home.hero.title')}
             </h1>
 
-            <p className="font-tamil text-2xl sm:text-3xl text-clay-400 mb-4 animate-fade-up animate-delay-100">
+            <p className="font-tamil text-lg sm:text-xl md:text-2xl leading-relaxed text-clay-400 mb-4 animate-fade-up animate-delay-100">
               தமிழின் குரலைப்பாதுகாப்போம்
             </p>
 
