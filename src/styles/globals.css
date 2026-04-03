@@ -18,11 +18,13 @@
 
   html {
     @apply scroll-smooth;
+    overflow-x: hidden;
   }
 
   body {
     @apply bg-white text-gray-900 antialiased;
     font-feature-settings: 'liga' 1, 'kern' 1;
+    overflow-x: hidden;
   }
 
   /* Tamil text rendering */
@@ -53,6 +55,11 @@
 
   ::-webkit-scrollbar-thumb {
     @apply bg-gray-400 rounded-full;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
 }
 
