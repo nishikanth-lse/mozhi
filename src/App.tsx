@@ -38,8 +38,6 @@ const queryClient = new QueryClient({
   },
 })
 
-// console.log("ENV URL:", import.meta.env.VITE_SUPABASE_URL)
-
 function PageLoader() {
   return (
     <div className="flex items-center justify-center min-h-[40vh]">
