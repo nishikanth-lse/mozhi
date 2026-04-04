@@ -82,5 +82,3 @@ export async function deleteFile(storagePath: string): Promise<void> {
 
   if (error) throw error
 }
-
-console.log("ENV CHECK:", import.meta.env)
