@@ -131,9 +131,9 @@ export const translations = {
     'nav.profile': 'சுயவிவரம்',
 
     // Home
-    'home.hero.title': 'தமிழின் குரலை பாதுகாப்போம்',
-    'home.hero.subtitle': 'தமிழ் வழக்குகள், மக்கள் வழக்கு மற்றும் உலக மொழிகளில் தாக்கம் செலுத்திய மூல சொற்களின் உயிரோட்டமான ஆவகம்.',
-    'home.hero.cta.explore': 'சொற்களை ஆராய்',
+    'home.hero.title': 'தமிழின் குரலைப்பாதுகாப்போம்',
+    'home.hero.subtitle': 'தமிழ் இயல்பு வழக்கு, மக்கள் வழக்கு மற்றும் உலக மொழிகளில் தமிழ் தாக்கம் செலுத்திய மூல சொற்களின் உயிரோட்டமான ஆவணம்.',
+    'home.hero.cta.explore': 'சொற்களை ஆய்க',
     'home.hero.cta.roots': 'மூல சொற்களை கண்டறி',
     'home.stats.words': 'ஆவணப்படுத்தப்பட்ட சொற்கள்',
     'home.stats.regions': 'பகுதிகள்',
@@ -141,11 +141,11 @@ export const translations = {
     'home.stats.contributors': 'பங்களிப்பாளர்கள்',
     'home.trending': 'இந்த வாரம் பிரபலமானவை',
     'home.recent': 'சமீபத்தில் சேர்க்கப்பட்டவை',
-    'home.featured_root': 'சிறப்பு மூல சொல்',
+    'home.featured_root': 'சிறப்பு மூலச்சொல்',
 
     // Vernacular
     'vernacular.title': 'வழக்கு நூலகம்',
-    'vernacular.subtitle': 'தமிழ் உலகம் முழுவதும் உள்ள வட்டார வழக்கு, சேற்று மொழி மற்றும் உயிரோட்டமான மொழி',
+    'vernacular.subtitle': 'உலகம் முழுவதும் உள்ள தமிழ் வட்டார வழக்கு,அழிந்த மற்றும் மறைந்த சொற்களை மீட்டுருவாக்கம் செய்தல்',
     'vernacular.filter.region': 'பகுதி வாரியாக வடிகட்டு',
     'vernacular.filter.tag': 'குறிச்சொல் வாரியாக',
     'vernacular.filter.type': 'சொல் வகை',
@@ -157,7 +157,7 @@ export const translations = {
     'vernacular.load_more': 'மேலும் காட்டு',
 
     // Word
-    'word.transliteration': 'ஒலிப்பெயர்ப்பு',
+    'word.transliteration': 'ஒலி பெயர்ப்பு',
     'word.meaning': 'பொருள்',
     'word.region': 'பகுதி',
     'word.usage': 'பயன்பாட்டு எடுத்துக்காட்டுகள்',
@@ -171,18 +171,18 @@ export const translations = {
     'word.contribute_correction': 'திருத்தம் பரிந்துரை',
 
     // Root Words
-    'roots.title': 'மூல சொல் அகராதி',
-    'roots.subtitle': 'தமிழ் மூல சொற்கள் மற்றும் உலக மொழிகளில் அவற்றின் தாக்கம்',
+    'roots.title': 'மூலச்சொல் அகராதி',
+    'roots.subtitle': 'தமிழ் மூலச்சொற்கள் மற்றும் உலக மொழிகளில் அவற்றின் தாக்கம்',
     'roots.etymology': 'சொல்லுற்பத்தி',
     'roots.derived': 'வழிவந்த சொற்கள்',
     'roots.linguistic_notes': 'மொழியியல் குறிப்புகள்',
     'roots.influence_map': 'மொழி தாக்க வரைபடம்',
-    'roots.period': 'வரலாற்று காலம்',
+    'roots.period': 'வரலாற்றுக்காலம்',
 
     // Admin
     'admin.dashboard': 'கட்டுப்பாட்டு மேடை',
     'admin.words': 'சொற்கள்',
-    'admin.root_words': 'மூல சொற்கள்',
+    'admin.root_words': 'மூலச்சொற்கள்',
     'admin.regions': 'பகுதிகள்',
     'admin.tags': 'குறிச்சொற்கள்',
     'admin.languages': 'மொழிகள்',
@@ -192,7 +192,7 @@ export const translations = {
     'admin.edit': 'திருத்து',
     'admin.delete': 'நீக்கு',
     'admin.publish': 'வெளியிடு',
-    'admin.draft': 'வரைவாக சேமி',
+    'admin.draft': 'விரைவாகச் சேமிி',
     'admin.preview': 'முன்னோட்டம்',
     'admin.bulk_import': 'CSV இறக்குமதி',
     'admin.stats.total': 'மொத்த உள்ளீடுகள்',
