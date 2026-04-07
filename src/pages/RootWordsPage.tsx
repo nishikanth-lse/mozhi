@@ -73,7 +73,7 @@ export function RootWordsPage() {
           icon={<Globe className="w-12 h-12" />}
           title="No root words found"
           description="Try adjusting your search."
-        
+        ></EmptyState>
       ) : (
         <>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
