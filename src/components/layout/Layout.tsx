@@ -48,7 +48,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 group">
-              <div className="w-9 h-9 rounded-xl bg-clay-600 flex items-center justify-center shadow-sm group-hover:bg-clay-700 transition-colors">
+              <div className="w-12 h-9 rounded-xl bg-clay-600 flex items-center justify-center shadow-sm group-hover:bg-clay-700 transition-colors">
                 <span className="font-tamil text-white text-lg font-bold leading-none">மொ</span>
               </div>
               <div className="flex flex-col leading-none">
