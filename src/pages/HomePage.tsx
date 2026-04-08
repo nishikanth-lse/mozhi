@@ -78,7 +78,7 @@ export function HomePage() {
             {/* Pill */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-clay-600/20 border border-clay-600/30 text-clay-300 text-sm mb-6 animate-fade-in">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Living archive of Tamil linguistic heritage</span>
+              <span>World's First Tamil vernacular library</span>
             </div>
 
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-4 animate-fade-up">
